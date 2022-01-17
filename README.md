@@ -52,7 +52,7 @@ RegisterNUICallback('cDataPed', function(data)
                     PlaceObjectOnGroundProperly(charPed)
                     SetBlockingOfNonTemporaryEvents(charPed, true)
                     data = json.decode(data)
-                    exports['qube-clothes']:setPedAppearance(charPed, data)
+                    exports['qb-clothes']:setPedAppearance(charPed, data)
                 end)
             else
                 Citizen.CreateThread(function()
