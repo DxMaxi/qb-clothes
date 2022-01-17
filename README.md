@@ -1,9 +1,10 @@
 ## qb-clothes
 # This is a modification of [aj-fivem-appearance](https://github.com/ihyajb/aj-fivem-appearance)
-
 #### Thanks to ihyajb and ZiggyJoJo for original and modified reposity... but i edited a bit of code and renamed the resource... =)
 
-Just import database and setup in config.lua for clothes job (like qb-clothing)
+## This work with PED (qb-target) and JOB Outfit, just edit config.lua with your job and set number of component (like qb-clothing)
+
+Don't forget to import sql file
 
 ## Requirments
 - [qb-core](https://github.com/qbcore-framework/qb-core)
