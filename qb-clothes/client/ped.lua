@@ -36,7 +36,7 @@ CreateThread(function()
 end)
 
 CreateThread(function()
-	exports['qb-eyes']:AddTargetModel(`ig_miguelmadrazo`, {
+	exports['qb-target']:AddTargetModel(`ig_miguelmadrazo`, {
 		options = {
 			{
 				event = "qb-clothes:clothingShop",
@@ -47,7 +47,7 @@ CreateThread(function()
 			distance = 2.5 
 	})
 
-	exports['qb-eyes']:AddTargetModel(`s_f_y_clubbar_02`, {
+	exports['qb-target']:AddTargetModel(`s_f_y_clubbar_02`, {
 		options = {
 			{
 				event = "qb-clothes:barberMenu",
